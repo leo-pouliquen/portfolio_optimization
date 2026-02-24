@@ -470,8 +470,8 @@ def main():
     visualization.plot_comparative_performance(
         wf_max_sharpe_returns=wf_max_sharpe_returns,
         wf_min_vol_returns=wf_min_vol_returns,
-        sp500_returns=benchmark_daily_log_returns['SPY'],
-        nasdaq_returns=benchmark_daily_log_returns['QQQ'],
+        sp500_returns=aligned_benchmark_log_returns['SPY'],
+        nasdaq_returns=aligned_benchmark_log_returns['QQQ'],
         ew_returns=aligned_ew_returns
     )
 
@@ -480,8 +480,8 @@ def main():
     visualization.plot_comparative_drawdowns(
         wf_max_sharpe_returns=wf_max_sharpe_returns,
         wf_min_vol_returns=wf_min_vol_returns,
-        sp500_returns=benchmark_daily_log_returns['SPY'],
-        nasdaq_returns=benchmark_daily_log_returns['QQQ'],
+        sp500_returns=aligned_benchmark_log_returns['SPY'],
+        nasdaq_returns=aligned_benchmark_log_returns['QQQ'],
         ew_returns=aligned_ew_returns
     )
 
@@ -489,8 +489,8 @@ def main():
     visualization.plot_return_distributions(
         wf_max_sharpe_returns=wf_max_sharpe_returns,
         wf_min_vol_returns=wf_min_vol_returns,
-        sp500_returns=benchmark_daily_log_returns['SPY'],
-        nasdaq_returns=benchmark_daily_log_returns['QQQ'],
+        sp500_returns=aligned_benchmark_log_returns['SPY'],
+        nasdaq_returns=aligned_benchmark_log_returns['QQQ'],
         ew_returns=aligned_ew_returns
     )
 

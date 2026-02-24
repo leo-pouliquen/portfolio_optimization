@@ -9,14 +9,14 @@ L'objectif n'est pas seulement de générer du rendement *In-Sample*, mais de co
 
 ## 🚀 Fonctionnalités Clés
 
-* **Univers d'Investissement Hybride :** Analyse d'un portefeuille diversifié de 10 méga-capitalisations croisant la forte croissance (Tech : MSFT, GOOGL, NVDA...) et la résilience (Défensif/Industrie : WMT, PG, JNJ...).
-* **Optimisation Mathématique Avancée :** * Simulation de Monte Carlo (génération de dizaines de milliers de portefeuilles).
+* **Univers d'Investissement Hybride : Analyse d'un portefeuille diversifié de 10 méga-capitalisations croisant la forte croissance (Tech : MSFT, GOOGL, NVDA...) et la résilience (Défensif/Industrie : WMT, PG, JNJ...).
+* **Optimisation Mathématique Avancée : Simulation de Monte Carlo (génération de dizaines de milliers de portefeuilles).
     * Optimisation Convexe (SLSQP) pour cibler le *Max Sharpe Ratio* et la *Min Volatility*.
-    * Implémentation de la **Matrice de Covariance de Ledoit-Wolf** (Shrinkage) pour stabiliser les estimateurs face au bruit statistique du marché.
+    * Implémentation de la Matrice de Covariance de Ledoit-Wolf (Shrinkage) pour stabiliser les estimateurs face au bruit statistique du marché.
 * **Backtesting Réaliste (Walk-Forward) :** Entraînement et test glissants pour simuler la performance réelle de l'algorithme dans le temps, avec prise en compte des **coûts de transaction** et du *Turnover*.
 * **Analyse Approfondie des Risques :** *Une décomposition complète du profil de la stratégie :*
-    * *Métriques Absolues :* Volatilité, Max Drawdown, Recovery Time, Ratios de Sharpe, Sortino et Calmar.
-    * *Risques Extrêmes :* Calcul de la VaR 95%, CVaR 95% (Expected Shortfall), Skewness (asymétrie) et Kurtosis (queues épaisses).
+    * *Métriques Absolues : Volatilité, Max Drawdown, Recovery Time, Ratios de Sharpe, Sortino et Calmar.
+    * *Risques Extrêmes : Calcul de la VaR 95%, CVaR 95% (Expected Shortfall), Skewness (asymétrie) et Kurtosis (queues épaisses).
     * *Métriques Relatives (vs SPY & QQQ) :* Alpha de Jensen, Beta, Tracking Error, Information Ratio.
 
 ## 📁 Architecture du Projet
